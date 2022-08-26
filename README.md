@@ -92,14 +92,14 @@ Note that, as a minimum, you must provide Rest_Secure with:
 In order to make use of Rest-Secure's proxied *fetch()* API, you must start it:
 
 
-  let status = await rest_secure.start();
+      let status = await rest_secure.start();
 
 In the unlikely event of this failing, you can check for any errors, eg:
 
-  if (status.error) {
-    console.log(status.error)
-    return;
-  }
+      if (status.error) {
+        console.log(status.error)
+        return;
+      }
 
 Rest-Secure is now ready for use.  If you take a look using the browser's Developer Tools, you'll see that a WebWorker is now running.
 
