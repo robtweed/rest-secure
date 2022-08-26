@@ -1,0 +1,27 @@
+{
+  "name": "rest-secure",
+  "version": "0.0.1",
+  "description": "Secure WebWorker-based REST Interface",
+  "main": "/src/rest-secure.js",
+  "browser": "/src/rest-secure.js",
+  "type": "module",
+  "exports": {
+    ".": "./src/rest-secure.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robtweed/rest-secure.git"
+  },
+  "author": "Rob Tweed, M/Gateway Developments Ltd",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "qoper8-ww": ""
+  },
+  "bugs": {
+    "url": "https://github.com/robtweed/rest-secure/issues"
+  },
+  "homepage": "https://github.com/robtweed/rest-secure#readme"
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "uri": "/api/helloworld",
+    "method": "GET",
+    "handler": "helloworld^myRestAPIs"
+  },
+  {
+    "uri": "/api/helloworldToken",
+    "method": "GET",
+    "handler": "helloworldToken^myRestAPIs"
+  },
+  {
+    "uri": "/api/refresh_token",
+    "method": "GET",
+    "handler": "refreshJWT^myRestAPIs"
+  },
+  {
+    "uri": "/api/refresh_idtoken",
+    "method": "GET",
+    "handler": "refreshIdToken^myRestAPIs"
+  },
+  {
+    "uri": "/api/rest_secure_routes",
+    "method": "GET",
+    "handler": "getRoutes^RestSecure"
+  },
+  {
+    "uri": "/api/login",
+    "method": "POST",
+    "handler": "login^myRestAPIs"
+  }
+  {
+    "uri": "/api/loginToken",
+    "method": "POST",
+    "handler": "loginToken^myRestAPIs"
+  }
+]
