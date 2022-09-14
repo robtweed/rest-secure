@@ -23,7 +23,7 @@
  |  limitations under the License.                                           |
  ----------------------------------------------------------------------------
 
-26 August 2022 
+14 September 2022 
 
  */
 
@@ -238,7 +238,7 @@ let handlerCode = new Map([
       if (!opt.headers) opt.headers = {};
       let cType = opt.headers.contentType || contentType;
 
-      if (cType === 'application/json' && typeof opt.body === 'object') {
+      if (cType === 'application/json' && opt.body && typeof opt.body === 'object') {
         opt.body = JSON.stringify(opt.body);
       }
 
@@ -247,13 +247,14 @@ let handlerCode = new Map([
       let restToken = uuidv4();
       let options = {
         method: opt.method,
-        body: opt.body,
         headers: {
           'Content-type': cType,
           'X-Authorization': 'Bearer ' + restToken
         },
         signal: abortController.signal
       };
+
+      if (opt.body && opt.body !== "null") options.body = opt.body;
 
       if (opt.headers) {
         for (const name in opt.headers) {
@@ -410,8 +411,8 @@ let REST_Secure = class {
     let qOptions = options.qOptions || {};
 
     this.name = 'REST-Secure';
-    this.build = '0.1';
-    this.buildDate = '26 August 2022';
+    this.build = '0.3';
+    this.buildDate = '14 September 2022';
 
     let qoper8 = new QOper8({
       poolSize: 1,

@@ -1,6 +1,6 @@
 {
   "name": "rest-secure",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Secure WebWorker-based REST Interface",
   "main": "/src/rest-secure.js",
   "browser": "/src/rest-secure.js",
