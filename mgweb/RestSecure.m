@@ -3,11 +3,11 @@ RestSecure ; mgweb-server Back-end for interoperability with Rest-Secure-based f
  ;----------------------------------------------------------------------------
  ;| RestSecure: mgweb-server Interface for Rest-Secure applications          |
  ;|                                                                          |
- ;| Copyright (c) 2022 M/Gateway Developments Ltd,                           |
+ ;| Copyright (c) 2023 MGateway Ltd,                                         |
  ;| Redhill, Surrey UK.                                                      |
  ;| All rights reserved.                                                     |
  ;|                                                                          |
- ;| http://www.mgateway.com                                                  |
+ ;| https://www.mgateway.com                                                 |
  ;| Email: rtweed@mgateway.com                                               |
  ;|                                                                          |
  ;|                                                                          |

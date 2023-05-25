@@ -1,7 +1,7 @@
 # Rest-Secure: Secure Rest Interface using a WebWorker
  
 Rob Tweed <rtweed@mgateway.com>  
-26 August 2022, M/Gateway Developments Ltd [http://www.mgateway.com](http://www.mgateway.com)  
+25 May 2023, MGateway Ltd [https://www.mgateway.com](https://www.mgateway.com)  
 
 Twitter: @rtweed
 
@@ -345,11 +345,11 @@ You can change the headers used by Rest-Secure by specifying them in the *authHe
 
 ## License
 
- Copyright (c) 2022 M/Gateway Developments Ltd,                           
+ Copyright (c) 2023 MGateway Ltd,                           
  Redhill, Surrey UK.                                                      
  All rights reserved.                                                     
                                                                            
-  http://www.mgateway.com                                                  
+  https://www.mgateway.com                                                  
   Email: rtweed@mgateway.com                                               
                                                                            
                                                                            
